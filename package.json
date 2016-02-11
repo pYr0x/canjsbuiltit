@@ -1,0 +1,35 @@
+{
+  "name": "buildit",
+  "version": "1.0.0",
+  "description": "a built test app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "can": "^2.3.15",
+    "jquery": "^2.2.0",
+    "steal": "^0.13.2"
+  },
+  "devDependencies": {
+    "steal-sass": "^1.0.1"
+  },
+  "system": {
+    "npmAlgorithm": "flat",
+    "directories": {
+      "lib": "src"
+    },
+    "envs": {
+      "window-development": {
+      },
+      "window-production": {
+        "paths": {
+          "css/*.css": "/css/*.css"
+        },
+        "baseURL": "https://somecdn.com/my-app/"
+      }
+    }
+  }
+}
