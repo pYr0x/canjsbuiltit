@@ -21,14 +21,12 @@
     "directories": {
       "lib": "src"
     },
+    "meta": {
+    },
     "envs": {
       "window-development": {
       },
       "window-production": {
-        "paths": {
-          "css/*.css": "/css/*.css"
-        },
-        "baseURL": "https://somecdn.com/my-app/"
       }
     }
   }

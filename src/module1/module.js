@@ -1,6 +1,6 @@
-let str = "Das ist Module";
+let str = "This is Module";
 let zahl = 1;
-let foobar = "Mein Button";
+let foobar = "My custom Button";
 
 export default str;
 
