@@ -17,6 +17,10 @@
     "steal-sass": "^1.0.1"
   },
   "system": {
+    "npmIngore": [
+      "devDependencies",
+      "sass.js"
+    ],
     "npmAlgorithm": "flat",
     "directories": {
       "lib": "src"
@@ -24,9 +28,22 @@
     "meta": {
     },
     "envs": {
+      "build": {
+        "map": {
+          "jquery": "http://code.jquery.com/jquery-2.2.0.min",
+          "jquery/jquery": "http://code.jquery.com/jquery-2.2.0.min"
+        }
+      },
       "window-development": {
+        "map": {
+
+        }
       },
       "window-production": {
+        "map": {
+          "jquery": "http://code.jquery.com/jquery-2.2.0.min",
+          "jquery/jquery": "http://code.jquery.com/jquery-2.2.0.min"
+        }
       }
     }
   }
