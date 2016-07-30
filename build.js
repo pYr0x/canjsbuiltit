@@ -6,11 +6,10 @@ var buildPromise = stealTools.build({
 	// main: "buildit/dev1/main",
 	config: __dirname + "/package.json!npm"
 },{
-	bundleSteal: false,
-	bundleAssets: true,
+	bundleSteal: true,
 	minify: false,
-	debug: true,
-	quiet: false,
-	bundleDepth: 3,
-	mainDepth: 3
+	// debug: true,
+	// quiet: false,
+	// bundleDepth: 3,
+	// mainDepth: 3
 });
