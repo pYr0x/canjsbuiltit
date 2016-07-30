@@ -9,25 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "can": "^2.3.15",
-    "jquery": "^2.2.0",
-    "steal": "^0.13.2"
+    "can": "^2.3.24",
+    "jquery": "^2.2.4",
+    "steal": "^1.0.0-beta.3"
   },
   "devDependencies": {
-    "steal-sass": "^1.0.1"
   },
   "system": {
-    "npmAlgorithm": "flat",
+    "main": "",
     "directories": {
       "lib": "src"
     },
-    "meta": {
-    },
+    "meta": {},
     "envs": {
-      "window-development": {
-      },
-      "window-production": {
-      }
+      "window-development": {},
+      "window-production": {}
     }
   }
 }
