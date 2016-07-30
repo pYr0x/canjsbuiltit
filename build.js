@@ -9,6 +9,9 @@ var stealTools = require("steal-tools");
 // 	minify: false
 // });
 
+// prod 2
+
+
 // prod 3
 var buildPromise = stealTools.build({
 	// main: ["buildit/dev1/main", "buildit/dev2/main"],
@@ -16,7 +19,7 @@ var buildPromise = stealTools.build({
 	// main: "buildit/dev1/main",
 	config: __dirname + "/package.json!npm"
 },{
-	bundleSteal: false,
+	bundleSteal: true,
 	minify: false,
 	ignore: [
 		'jquery'

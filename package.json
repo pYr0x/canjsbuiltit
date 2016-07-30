@@ -14,19 +14,19 @@
     "steal": "^1.0.0-beta.3"
   },
   "devDependencies": {
+    "steal-tools": "^1.0.0-beta.2"
   },
   "system": {
     "main": "",
     "directories": {
       "lib": "src"
     },
+    "npmIgnore": [
+      "devDependencies"
+    ],
     "meta": {},
     "envs": {
-      "build-development": {
-        "map": {
-          "jquery": "@empty"
-        }
-      },
+      "build-development": {},
       "window-development": {},
       "window-production": {}
     }
