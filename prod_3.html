@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Production Site 3</title>
-    <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        var steal = {
+            instantiated: {
+                jquery: { 'default': window.jQuery, __useDefault: true }
+            }
+        };
+    </script>
 </head>
 <body>
 
@@ -11,6 +18,7 @@
 <div id="output"></div>
 
 
-<script src="dist/bundles/buildit/dev2/main.js"></script>
+<!--<script src="dist/bundles/buildit/dev2/main.js"></script>-->
+<script src="node_modules/steal/steal.js" env="production" main="buildit/dev2/main"></script>
 </body>
 </html>

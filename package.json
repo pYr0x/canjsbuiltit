@@ -22,6 +22,11 @@
     },
     "meta": {},
     "envs": {
+      "build-development": {
+        "map": {
+          "jquery": "@empty"
+        }
+      },
       "window-development": {},
       "window-production": {}
     }
