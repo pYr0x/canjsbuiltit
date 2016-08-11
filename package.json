@@ -15,12 +15,12 @@
     "can-stache": "^3.0.0-pre.15",
     "can-view-model": "^3.0.0-pre.4",
     "jquery": "^2.2.4",
-    "steal": "^1.0.0-beta.3",
+    "steal": "1.0.0-beta.3",
     "steal-sass": "^1.0.3",
     "steal-stache": "^3.0.0-pre.3"
   },
   "devDependencies": {
-    "steal-tools": "^1.0.0-beta.2"
+    "steal-tools": "1.0.0-beta.3"
   },
   "system": {
     "main": "",

@@ -3,10 +3,12 @@ import DefineMap from 'can-define/map/map';
 import {foobar} from 'buildit/module1/module';
 
 import './button-comp.less';
-import template from './button-comp.stache!';
+import template from './button-comp.stache';
 
 export const ViewModel = DefineMap.extend({
-	name: foobar,
+	name: {
+		value: foobar
+	},
 	click: () =>
 		console.log("test")
 
