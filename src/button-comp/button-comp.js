@@ -3,8 +3,8 @@ import Map from 'can/map/';
 import 'can/map/define/';
 import {foobar} from 'buildit/module1/module';
 
-// import './button-comp.less';
-import './button-comp.scss';
+import './button-comp.less';
+// import './button-comp.scss';
 import template from './button-comp.stache!';
 
 export const ViewModel = Map.extend({
