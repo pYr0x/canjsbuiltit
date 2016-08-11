@@ -1,8 +1,8 @@
-import stache from 'can/view/stache/';
+import stache from 'can-stache';
 import $ from 'jquery';
 
 import 'buildit/button-comp/';
 
-let tempalte = stache('<my-button></my-button>');
+let template = stache('<my-button></my-button>');
 
-$('#output').append(tempalte({}));
+$('#output').append(template({}));
