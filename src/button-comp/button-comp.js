@@ -1,12 +1,12 @@
-import Component from 'can/component/';
-import Map from 'can/map/';
-import 'can/map/define/';
+import Component from 'can-component';
+import DefineMap from 'can-define/map/map';
 import {foobar} from 'buildit/module1/module';
+require('can-view-model');
 
-import './button-comp.scss!';
+import './button-comp.less!';
 import template from './button-comp.stache!';
 
-export const ViewModel = Map.extend({
+export const ViewModel = DefineMap.extend({
 	name: foobar,
 	click: () =>
 		console.log("test")
@@ -15,6 +15,6 @@ export const ViewModel = Map.extend({
 
 export default Component.extend({
 	tag: 'my-button',
-	viewModel: ViewModel,
+	ViewModel: ViewModel,
 	template
 });

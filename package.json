@@ -9,17 +9,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "can": "^2.3.15",
+    "can-component": "^3.0.0-pre.14",
+    "can-define": "^0.7.15",
+    "can-map": "^3.0.0-pre.8",
+    "can-set": "^0.5.6",
+    "can-stache": "^3.0.0-pre.13",
+    "can-view-model": "^3.0.0-pre.4",
     "jquery": "^2.2.0",
-    "steal": "^0.13.2"
+    "steal": "^0.16.33",
+    "steal-tools": "^0.16.6",
+    "steal-stache": "^3.0.0-pre.3"
   },
   "devDependencies": {
-    "steal-sass": "^1.0.1"
   },
   "system": {
     "npmIngore": [
-      "devDependencies",
-      "sass.js"
+      "devDependencies"
     ],
     "npmAlgorithm": "flat",
     "directories": {
