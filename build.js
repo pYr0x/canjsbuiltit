@@ -23,7 +23,7 @@ var buildPromise = stealTools.build({
 	}
 },{
 	bundleSteal: false,
-	minify: true
+	minify: false
 });
 
 // prod 2
